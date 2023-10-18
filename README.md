@@ -30,12 +30,13 @@ J'en profite pour mettre VSCode pour pouvoir creer mes bails, ouvrir le terminal
 
 </details>
 
+<details><summary> petite pause pub..</summary>
 Avant meme de commencer tous les containers, on remarque sur le sujet qu'on a deja la structure du rendu donc on peut creer un Makefile et un dossier `srcs`. Dans ce dossier on trouvera un dossier requirements avec 4 sous dossiers `tools` puis un par container etc.. puis un docker-compose.yml et notre .env.. 
 
-![image](https://github.com/chmadran/Inception/assets/113340699/1760940e-d82c-4dcd-96db-61008e58aee9)
+![image](https://github.com/chmadran/Inception/assets/113340699/1760940e-d82c-4dcd-96db-61008e58aee9)</details>
 
 
-<details><summary>STEP 3 : CONFIGURER LE CONTAINER NGINX </summary> 
+<details><summary>STEP 3 : Nginx </summary> 
 
 NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape afin de comprendre au mieux comment utiliser et se balader avec Docker. Ouvrons d’abord le fichier essentiel de Docker, le Dockerfile NGINX.
 
@@ -43,6 +44,12 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 2. Set up the conf file
 3. Try runing `sudo docker -it nginx`
 
+</details>
+
+<details><summary>STEP 4 : WordPress </summary>
+</details>
+
+<details><summary>STEP 5 : MariaDB</summary>
 </details>
 
 <h5>WHAT IS DOCKER ?</h5>
