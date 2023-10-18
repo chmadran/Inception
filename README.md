@@ -1,5 +1,48 @@
 # Inception
 
+<h5>STEP BY STEP</h5>
+
+<details><summary>STEP 1 : Creer une VM</summary>
+
+- Ubuntu Desktop
+- Debian Buster
+
+Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et 2. car c'est demande dans le sujet.
+
+1. Telecharger l'image Debian (penultimate version precise dans le sujet donc avant derniere) depuis le site [officiel](https://www.debian.org/distrib/)
+   
+3. Telecharger Ubuntu Desktop depuis le site [officiel](https://ubuntu.com/download/desktop)
+   
+5. The VM set up
+* Open VirtualBox and click on "New" to create a new virtual machine.
+* Name the virtual machine (e.g., "Debian with Ubuntu Desktop").
+* Select "Linux" as the Type, and choose "Debian (64-bit)" as the Version.
+* Allocate memory. At least 2GB is recommended, but you can allocate more if you have sufficient resources.
+
+4. Configure Virtual Machine Settings
+* Right-click on the newly created VM and select "Settings".
+* Under "System", go to the "Processor" tab and allocate the number of CPU cores you want to use.
+* Under "Storage", click on the empty optical drive and select "Choose a disk file". Browse and select the Debian ISO image.
+
+5. Install Debian
+* Start the VM by clicking "Start".
+* Follow the Debian installation prompts. Choose language, location, keyboard layout, and set up user accounts.
+* When you reach the "Partition disks" step, select the appropriate options for your setup. You can choose to use the entire disk or set up partitions manually.
+* Complete the Debian installation process.
+
+6. Install Ubuntu Desktop
+* Once Debian is installed and the VM restarts, insert the Ubuntu Desktop ISO into the virtual optical drive.
+* Follow the installation process for Ubuntu Desktop, which is similar to the Debian installation.
+* When prompted for installation type, choose "Erase disk and install Ubuntu" or set up partitions manually if you prefer.
+* Complete the installation process.
+
+7. Post-Installation
+* Once both Debian and Ubuntu Desktop are installed, you can boot into Ubuntu and set up your desktop environment and applications.
+* You can install VirtualBox Guest Additions in Ubuntu for better integration with the host system.
+
+</details>
+
+
 <h5>WHAT IS DOCKER ?</h5>
 
 **Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé par Solomon Hykes en mars 2013.** Vous creez un super programme, Docker repond aux problematiques suivantes : 
@@ -281,3 +324,10 @@ TLS permet :
 
 *Quelle est la différence entre TLS et SSL ?*   
 SSL et TLS sont deux protocoles qui permettent l’authentification, et le chiffrement des données qui transitent entre des serveurs. En fait le SSL est le prédécesseur du TLS. Au fil du temps, de nouvelles versions de ces protocoles ont vu le jour pour faire face aux vulnérabilités et prendre en charge des suites et des algorithmes de chiffrement toujours plus forts, toujours plus sécurisés 🔐
+
+
+<h5>USEFUL REPOS</h5>
+
+* [vbachele](https://github.com/vbachele/Inception)
+* [llescure](https://github.com/llescure/42_Inception)
+* [malatinipro](https://github.com/malatinipro/inception)
