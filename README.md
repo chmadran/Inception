@@ -21,9 +21,11 @@ Nous allons creer une VM basee sur Ubuntu car 1. nous avons besoin d'etre sudo p
 * Complete the installation process.
 </details>
 
-<details><summary>STEP 2 : Installer docker</summary></details>
+<details><summary>STEP 2 : Installer docker</summary>
 
 Head to [this page](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) and then down to **Install using the Apt repository** to have the commands to copy and paste in the VM Terminal. 
+
+</details>
 
 <h5>WHAT IS DOCKER ?</h5>
 
