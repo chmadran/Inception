@@ -30,6 +30,19 @@ J'en profite pour mettre VSCode pour pouvoir creer mes bails, ouvrir le terminal
 
 </details>
 
+Avant meme de commencer tous les containers, on remarque sur le sujet qu'on a deja la structure du rendu donc on peut creer un Makefile et un dossier `srcs`. Dans ce dossier on trouvera un dossier requirements avec 4 sous dossiers `tools` puis un par container etc.. puis un docker-compose.yml et notre .env.. 
+
+![image](https://github.com/chmadran/Inception/assets/113340699/1760940e-d82c-4dcd-96db-61008e58aee9)
+
+
+<details><summary>STEP 3 : CONFIGURER LE CONTAINER NGINX </summary> 
+
+NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape afin de comprendre au mieux comment utiliser et se balader avec Docker. Ouvrons d’abord le fichier essentiel de Docker, le Dockerfile NGINX.
+
+
+
+</details>
+
 <h5>WHAT IS DOCKER ?</h5>
 
 **Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé par Solomon Hykes en mars 2013.** Vous creez un super programme, Docker repond aux problematiques suivantes : 
