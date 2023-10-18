@@ -7,7 +7,7 @@
 - Ubuntu Desktop
 - Debian Buster
 
-Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et ce n'est pas possible sur les ordis de 42 et 2. car c'est demande dans le sujet.
+Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et ce n'est pas possible sur les ordis de 42 et 2. car c'est demande dans le sujet. Je le fais sur un disque dur externe pour pouvoir travailler de chez moi.
 
 1. Telecharger l'image Debian (penultimate version precise dans le sujet donc avant derniere) depuis le site [officiel](https://www.debian.org/distrib/)
    
@@ -18,6 +18,8 @@ Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avo
 * Name the virtual machine (e.g., "Debian with Ubuntu Desktop").
 * Select "Linux" as the Type, and choose "Debian (64-bit)" as the Version.
 * Allocate memory. At least 2GB is recommended, but you can allocate more if you have sufficient resources.
+* Choose "Use an existing virtual hard disk file" and click the folder icon to browse and select the location on your external hard disk where you want to store the VM files.
+* Allocate disk space. At least 25GB is recommended for a standard Ubuntu Desktop installation.
 
 4. Configure Virtual Machine Settings
 * Right-click on the newly created VM and select "Settings".
