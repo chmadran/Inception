@@ -39,7 +39,9 @@ Avant meme de commencer tous les containers, on remarque sur le sujet qu'on a de
 
 NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape afin de comprendre au mieux comment utiliser et se balader avec Docker. Ouvrons d’abord le fichier essentiel de Docker, le Dockerfile NGINX.
 
-
+1. Set up the Dockerfile
+2. Set up the conf file
+3. Try runing `sudo docker -it nginx`
 
 </details>
 
