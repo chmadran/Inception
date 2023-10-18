@@ -4,46 +4,26 @@
 
 <details><summary>STEP 1 : Creer une VM</summary>
 
-- Ubuntu Desktop
-- Debian Buster
+Nous allons creer une VM basee sur Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et ce n'est pas possible sur les ordis de 42 et 2. car il est demande dans le sujet de bosser sur une VM et apres d'etre sur Debian/Alpine (pas pour la VM elle meme). Je le fais sur un disque dur externe car c'est 15x plus rapide.
 
-Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et ce n'est pas possible sur les ordis de 42 et 2. car c'est demande dans le sujet. Je le fais sur un disque dur externe pour pouvoir travailler de chez moi.
-
-1. Telecharger l'image Debian (penultimate version precise dans le sujet donc avant derniere) depuis le site [officiel](https://www.debian.org/distrib/)
-   
-3. Telecharger Ubuntu Desktop depuis le site [officiel](https://ubuntu.com/download/desktop)
+1. Telecharger Ubuntu 20.4 Desktop depuis le site [officiel](https://ubuntu.com/download/desktop)
    
 5. The VM set up
 * Open VirtualBox and click on "New" to create a new virtual machine.
-* Name the virtual machine (e.g., "Debian with Ubuntu Desktop").
-* Select "Linux" as the Type, and choose "Debian (64-bit)" as the Version.
-* Allocate memory. At least 2GB is recommended, but you can allocate more if you have sufficient resources.
-* Choose "Use an existing virtual hard disk file" and click the folder icon to browse and select the location on your external hard disk where you want to store the VM files.
-* Allocate disk space. At least 25GB is recommended for a standard Ubuntu Desktop installation.
-
-4. Configure Virtual Machine Settings
-* Right-click on the newly created VM and select "Settings".
-* Under "System", go to the "Processor" tab and allocate the number of CPU cores you want to use.
-* Under "Storage", click on the empty optical drive and select "Choose a disk file". Browse and select the Debian ISO image.
-
-5. Install Debian
-* Start the VM by clicking "Start".
-* Follow the Debian installation prompts. Choose language, location, keyboard layout, and set up user accounts.
-* When you reach the "Partition disks" step, select the appropriate options for your setup. You can choose to use the entire disk or set up partitions manually.
-* Complete the Debian installation process.
+* Name the virtual machine (e.g inception)
+* Select "Linux" as the Type, and choose "Ubuntu (64-bit)" as the Version.
+* Allocate memory. At least 4096MB is necessary for Ubuntu, them 50GB to be large
+* Then just lick yes yes yes
+* * Under "Storage", click on the empty optical drive and select "Choose a disk file". Browse and select the Ubuntu ISO image.
 
 6. Install Ubuntu Desktop
-* Once Debian is installed and the VM restarts, insert the Ubuntu Desktop ISO into the virtual optical drive.
-* Follow the installation process for Ubuntu Desktop, which is similar to the Debian installation.
-* When prompted for installation type, choose "Erase disk and install Ubuntu" or set up partitions manually if you prefer.
+* Follow the installation process for Ubuntu Desktop, which is similar to the Debian installation in B2BR, honestly just click yes everywhere but recommended to put English in case there are error messages at some point
 * Complete the installation process.
-
-7. Post-Installation
-* Once both Debian and Ubuntu Desktop are installed, you can boot into Ubuntu and set up your desktop environment and applications.
-* You can install VirtualBox Guest Additions in Ubuntu for better integration with the host system.
-
 </details>
 
+<details><summary>STEP 2: Installer docker</summary></details>
+
+Head to [this page](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) and then down to **Install using the Apt repository** to have the commands to copy and paste in the VM Terminal. 
 
 <h5>WHAT IS DOCKER ?</h5>
 
