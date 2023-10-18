@@ -218,3 +218,66 @@ person:
     phone: 555-555-5555
 ```
 </details>
+
+<details> <summary><h5>DOCKER NETWORK</h5></summary>
+
+ A Docker network is a communication pathway that allows Docker containers to securely communicate with each other or with other resources outside of the container environment. It enables containers to work together in isolation, share data, and access services without exposing them directly to the external network.
+
+Here are some key points about Docker networks:
+
+**Isolation:** Each Docker network provides a separate environment for containers to communicate. Containers in different networks are isolated by default and cannot directly communicate with each other.
+
+**Default Networks:** Docker automatically creates three default networks:
+* bridge: This is the default network created when Docker is installed. Containers on this network can communicate with each other without additional configuration.
+* host: This network allows a container to share the host network namespace, effectively removing network isolation.
+* none: This network disables all networking.
+  
+**User-Defined Networks:**
+You can create your own custom networks to group containers together. This provides a way for specific sets of containers to communicate, while remaining isolated from others.
+
+**Bridge Network:**
+The bridge network allows containers to communicate with each other using the internal IP addresses assigned by Docker. It also provides a gateway for containers to access resources outside the Docker environment.
+
+**Overlay Network:**
+This is a type of network that spans multiple Docker hosts, allowing containers on different hosts to communicate as if they were on the same network. It's commonly used in multi-host environments and is part of Docker's Swarm mode.
+
+**Macvlan Network:**
+This allows you to assign a MAC address to a container, making it appear as if it's directly connected to the physical network.
+
+**Container-to-Container Communication:**
+Containers in the same network can communicate with each other using their container names or IP addresses. This allows for easy inter-container communication.
+
+**Container-to-External Communication:**
+Containers can also access external resources, such as the internet or services running on the host machine, through the gateway provided by the Docker network.
+
+**Security and Isolation:**
+Docker networks provide a level of isolation between containers. They act as a private network, preventing unauthorized access from outside the network.
+
+**Connectivity Options:**
+Docker networks provide different connectivity options, allowing you to specify how containers should be able to communicate (e.g., DNS-based service discovery, container name resolution, etc.).
+
+**Orchestration and Scaling:**
+Docker networks play a crucial role in container orchestration platforms like Docker Swarm and Kubernetes. They facilitate communication between containers in distributed environments.
+
+In summary, Docker networks provide a way for containers to communicate in an isolated and controlled manner, allowing for the creation of complex multi-container applications. They are a fundamental component of Docker's ecosystem and play a critical role in container orchestration and deployment.
+
+</details>
+
+<h5>ALPINE / DEBIAN</h5>
+
+**Alpine Linux** est une distribution **Linux** légère, orientée sécurité, elle contient le moins de fichiers et outils possibles afin de laisser la possibilité au développeur de les installer par lui même si besoin.
+
+**Debian** est le système d'exploitation universel. Les systèmes Debian utilisent actuellement le noyau Linux ou le noyau **FreeBSD**.
+
+<h5>TLS</h5>
+La Transport Layer Security (TLS) ou « Sécurité de la couche de transport » est un protocole de sécurisation des échanges par réseau informatique, notamment par Internet.
+
+TLS permet :
+
+* l'authentification du serveur
+* la confidentialité des données échangées (ou session chiffrée)
+* l'intégrité des données échangées
+* de manière optionnelle, l'authentification du client (mais dans la réalité celle-ci est souvent assurée par la couche applicative)
+
+*Quelle est la différence entre TLS et SSL ?*   
+SSL et TLS sont deux protocoles qui permettent l’authentification, et le chiffrement des données qui transitent entre des serveurs. En fait le SSL est le prédécesseur du TLS. Au fil du temps, de nouvelles versions de ces protocoles ont vu le jour pour faire face aux vulnérabilités et prendre en charge des suites et des algorithmes de chiffrement toujours plus forts, toujours plus sécurisés 🔐
