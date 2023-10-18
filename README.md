@@ -26,6 +26,8 @@ Nous allons creer une VM basee sur Ubuntu car 1. nous avons besoin d'etre sudo p
 
 The whole point of creating a Virtual Machine is to be able to use docker in it so head to [this page](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) and then down to **Install using the Apt repository** to have the commands to copy and paste in the VM Terminal. 
 
+J'en profite pour mettre VSCode pour pouvoir creer mes bails, ouvrir le terminal et taper `sudo snap install code --classic` une fois que code est installe juste taper `code` dans le terminal pour lancer l'application. Sinon aller sur Firefox, faire installer VSCode, prendre la version ubuntu et faire le process normal. 
+
 </details>
 
 <h5>WHAT IS DOCKER ?</h5>
