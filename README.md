@@ -70,6 +70,10 @@ Use a text editor to open the hosts file. On Linux/Unix systems, you can use a c
 </details>
 
 
+<h2>TO RUN YOUR PROJECT</h2>
+
+`sudo make [RULE]` 
+
 <h5>WHAT IS DOCKER ?</h5>
 
 **Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé par Solomon Hykes en mars 2013.** Vous creez un super programme, Docker repond aux problematiques suivantes : 
