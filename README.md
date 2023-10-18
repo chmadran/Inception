@@ -52,11 +52,16 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 <details><summary>STEP 5 : MariaDB</summary>
 </details>
 
-<details><summary>STEP 6 : Open the correct ports </summary> 
+<details><summary>STEP 6 : Open the correct ports, change the host file </summary> 
+
 You'll need to ensure that the following ports are open on your virtual machine:
 * Port 80 (for HTTP)
 * Port 443 (for HTTPS)
 * Port 3306 (for MariaDB)
+
+You need to amend the host file to insert your local ip. The hosts file is a system file that maps hostnames to IP addresses. By editing this file, you can manually set up a specific domain name to point to an IP address.  
+
+Use a text editor to open the hosts file. On Linux/Unix systems, you can use a command like sudo nano /etc/hosts. Add a line at the end of the file in the following format: `<local IP address>    login.42.fr`  
 
 </details>
 
