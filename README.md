@@ -7,7 +7,7 @@
 - Ubuntu Desktop
 - Debian Buster
 
-Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et 2. car c'est demande dans le sujet.
+Nous allons creer une VM basee sur Debian avec un desktop Ubuntu car 1. nous avons besoin d'etre sudo pour pouvoir utiliser docker compose et ce n'est pas possible sur les ordis de 42 et 2. car c'est demande dans le sujet.
 
 1. Telecharger l'image Debian (penultimate version precise dans le sujet donc avant derniere) depuis le site [officiel](https://www.debian.org/distrib/)
    
