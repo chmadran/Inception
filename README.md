@@ -52,6 +52,15 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 <details><summary>STEP 5 : MariaDB</summary>
 </details>
 
+<details><summary>STEP 6 : Open the correct ports </summary> 
+You'll need to ensure that the following ports are open on your virtual machine:
+* Port 80 (for HTTP)
+* Port 443 (for HTTPS)
+* Port 3306 (for MariaDB)
+
+</details>
+
+
 <h5>WHAT IS DOCKER ?</h5>
 
 **Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé par Solomon Hykes en mars 2013.** Vous creez un super programme, Docker repond aux problematiques suivantes : 
