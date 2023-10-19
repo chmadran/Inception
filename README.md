@@ -64,6 +64,17 @@ Test NGINX: Open a web browser and visit `https://IP_OF_YOUR_VM( use ifconfig to
 </details>
 
 <details><summary>STEP 5 : MariaDB</summary>
+
+* set up the dockerfile
+* set up the script
+* test the container
+
+Build the MariaDB Image: `docker build -t my-mariadb-image .`
+Run the MariaDB Container: `docker run -d --name mariadb-container my-mariadb-image`
+Check Container Status: `docker ps`
+Connect to the MariaDB Container: `docker exec -it mariadb-container mysql -uroot -p`
+Then try out stuff...
+ 
 </details>
 
 <details><summary>STEP 6 : Open the correct ports, change the host file </summary> 
