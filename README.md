@@ -80,8 +80,8 @@ Use a text editor to open the hosts file. On Linux/Unix systems, you can use a c
 * checking which networks are running : `docker network ls`
 * don't forget to leave at the end `sudo make [RULE TO CLEAN]`
 
-Each of the above can be run with `docker-compose [something]` as well.
-Website is accessible through `https://login.42.fr`
+Each of the above can be run with `docker-compose [something]` as well.   
+Website is accessible through `https://login.42.fr`.   
 
 <h2>USEFUL KNOWLEDGE</h2>
 
