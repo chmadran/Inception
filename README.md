@@ -81,7 +81,10 @@ Then try out stuff...
  
 </details>
 
-<details><summary>STEP 6 : Open the correct ports, change the host file </summary> 
+<details><summary>STEP 6 : Create the Makefile and the docker-compose.yml </summary> 
+</details>
+
+<details><summary>STEP & : Open the correct ports, change the host file </summary> 
 
 You'll need to ensure that the following ports are open on your virtual machine:
 * Port 80 (for HTTP)
