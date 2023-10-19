@@ -56,7 +56,7 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 Build the NGINX Image: `docker build -t nginx .`   
 Run the NGINX Container: `docker run -d --name nginx -p 443:443 nginx`    
 Verify the Container is Running: `docker ps`   
-Test NGINX: Open a web browser and visit `https://localhost` or `https://your_ip_address`. You should see the default NGINX welcome page, indicating that NGINX is running correctly.   
+Test NGINX: Open a web browser and visit `https://IP_OF_YOUR_VM( use ifconfig to find it)`. You should see the default NGINX welcome page, indicating that NGINX is running correctly.   
 
 </details>
 
