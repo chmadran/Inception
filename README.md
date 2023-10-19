@@ -1,6 +1,8 @@
 
 # Inception
 
+Getting started with docker : [here](https://docs.docker.com/get-started/)
+
 <h5>STEP BY STEP</h5>
 
 <details><summary>STEP 1 : Creer une VM</summary>
