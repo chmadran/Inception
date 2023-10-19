@@ -76,6 +76,7 @@ Use a text editor to open the hosts file. On Linux/Unix systems, you can use a c
 <h2>TO RUN YOUR PROJECT</h2>
 
 * `sudo make [RULE]`
+* give a name to a container while running it `docker build -t nginx .`
 * checking which containers are running : `docker volume ls`
 * checking which volumes are running : `docker ps` (needs to be inside .yml dir)
 * checking which networks are running : `docker network ls`
