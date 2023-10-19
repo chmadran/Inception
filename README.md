@@ -2,6 +2,7 @@
 # Inception
 
 Getting started with docker : [here](https://docs.docker.com/get-started/)
+A good start in video - music wasnt necessary..: [here](https://www.youtube.com/watch?v=SXB6KJ4u5vg)
 
 <h5>STEP BY STEP</h5>
 
