@@ -51,6 +51,8 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 2. Set up the conf file
 3. Try runing just the nginx container and getting an error 403/404 in the html.
 
+⚠️ TO TEST you have to amend something in your nginx.conf file, update the fastcgi_pass directive to use an actual IP address or hostname where your WordPress service is runnin to : `fastcgi_pass 192.168.0.10:9000;`
+
 Build the NGINX Image: `docker build -t nginx .`   
 Run the NGINX Container: `docker run -d --name nginx -p 443:443 nginx`    
 Verify the Container is Running: `docker ps`   
