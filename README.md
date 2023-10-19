@@ -49,7 +49,9 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 
 1. Set up the Dockerfile
 2. Set up the conf file
-3. Try runing `sudo docker -it nginx`
+3. Try runing just the nginx container and getting an error 403/404 in the html.
+
+
 
 </details>
 
