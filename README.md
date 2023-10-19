@@ -69,11 +69,15 @@ Test NGINX: Open a web browser and visit `https://IP_OF_YOUR_VM( use ifconfig to
 * set up the script
 * test the container
 
+⚠️ TO TEST unless you have defined a database password in your command line it you can just press enter if prompted to enter one
+
 Build the MariaDB Image: `docker build -t my-mariadb-image .`
 Run the MariaDB Container: `docker run -d --name mariadb-container my-mariadb-image`
 Check Container Status: `docker ps`
 Connect to the MariaDB Container: `docker exec -it mariadb-container mysql -uroot -p`
-Then try out stuff...
+Then try out stuff... 
+
+
  
 </details>
 
