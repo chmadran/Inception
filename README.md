@@ -72,7 +72,13 @@ Use a text editor to open the hosts file. On Linux/Unix systems, you can use a c
 
 <h2>TO RUN YOUR PROJECT</h2>
 
-`sudo make [RULE]` 
+* `sudo make [RULE]`
+* checking which containers are running : `docker volume ls`
+* checking which volumes are running : `docker ps` (needs to be inside .yml dir)
+* checking which networks are running : `docker network ls`
+* don't forget to leave at the end `sudo make [RULE TO CLEAN]`
+
+Each of the above can be run with `docker-compose [something]` as well.
 
 <h2>USEFUL KNOWLEDGE</h2>
 
