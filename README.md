@@ -38,7 +38,7 @@ Avant meme de commencer tous les containers, on remarque sur le sujet qu'on a de
 
 ![image](https://github.com/chmadran/Inception/assets/113340699/1760940e-d82c-4dcd-96db-61008e58aee9)
 
-C'est aussi le moment de creer un fichier .env pour bien comprendre les variables d'environnement et les ajouter au fur et a mesure (see below). A .env file is a text file used to store environment variables for a project. It provides a convenient way to manage configuration settings **without hardcoding them directly into code or scripts**.
+C'est aussi le moment de creer un fichier .env pour bien comprendre les variables d'environnement et les ajouter au fur et a mesure. A .env file is a text file used to store environment variables for a project. It provides a convenient way to manage configuration settings **without hardcoding them directly into code or scripts**. It's quite convenient for PASSWORDS for example ;)
 
 </details>
 
