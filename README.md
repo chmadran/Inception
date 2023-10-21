@@ -50,6 +50,7 @@ NGINX permet de mettre en place un serveur Web. Nous allons commencer par étape
 1. Set up the Dockerfile
 2. Set up the conf file
 3. Try runing just the nginx container and getting an error 403/404 in the html.
+4. Add the SSL part 
 
 ⚠️ TO TEST you have to amend something in your nginx.conf file, update the fastcgi_pass directive to use an actual IP address or hostname where your WordPress service is runnin to : `fastcgi_pass 192.168.0.10:9000;`
 
