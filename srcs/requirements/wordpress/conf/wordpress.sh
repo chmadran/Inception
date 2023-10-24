@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "having a nap\n"
-sleep 5
+sleep 20
 
 echo "Starting WordPress Configuration Script"
 echo "Current Directory: $(pwd)"
@@ -20,6 +20,7 @@ then
 		--dbname=$DB_NAME \
 		--dbuser=$DB_USER \
 		--dbpass=$DB_PASSWORD \
+		--path="/var/www/html/wordpress" \
 		--allow-root
 	wp core install \
 		--title=$WP_TITLE \
