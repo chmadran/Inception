@@ -2,7 +2,6 @@
 if [ -d "/var/lib/mysql/${DB_NAME}" ]
 then
 	echo "${DB_NAME} already exists\n"
-	sleep 10
 else
 	service mariadb start
 	echo "creating ${DB_NAME}\n"
@@ -16,5 +15,6 @@ else
 
 	mysqladmin -u root -p${DB_ADMIN_PASSWORD} shutdown
 	sleep 5
+	echo "mariadb is successfully set !"
 fi
 exec mysqld
